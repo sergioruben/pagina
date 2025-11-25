@@ -5,7 +5,7 @@ from rdkit import Chem
 from rdkit.Chem import Descriptors
 
 # --- CONFIGURACIÓN ---
-st.set_page_config(page_title="Calculadora de Electrolitos", page_icon="🧪")
+st.set_page_config(page_title="Calculadora de Electrolitos", page_icon="♦︎")
 
 # --- FUNCIÓN CIENTÍFICA PRINCIPAL ---
 def analizar_componente(smiles):
