@@ -114,7 +114,7 @@ def calcular_kim_variables(solventes, sales):
     return res
 
 # --- INTERFAZ DE USUARIO ---
-st.title("🧪 Calculadora de Variables Químicas")
+st.title("Calculadora de Variables Químicas")
 st.markdown("Ingresa tu receta (volumétrica) para calcular automáticamente las 13 variables de Kim et al.")
 
 with st.form("receta_form"):
@@ -149,7 +149,7 @@ with st.form("receta_form"):
             
             sales_input.append({'smiles': sa_smiles, 'conc': sa_conc})
             
-    calcular_btn = st.form_submit_button("🚀 Calcular Variables")
+    calcular_btn = st.form_submit_button("Calcular Variables")
 
 # --- MOSTRAR RESULTADOS ---
 if calcular_btn:
