@@ -114,7 +114,7 @@ def calcular_kim_variables(solventes, sales):
     return res
 
 # --- INTERFAZ DE USUARIO ---
-st.title("Calculadora de Variables Químicas")
+st.title("Prediccion de Eficiencia Coulombica y Condutividad Ionica en Electrolitos de Baterias de Iones de Litio")
 st.markdown("Ingresa tu receta (volumétrica) para calcular automáticamente las 13 variables de Kim et al.")
 
 with st.form("receta_form"):
